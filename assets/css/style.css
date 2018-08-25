@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700,900');
+/*
+font-family: 'Cinzel Decorative', cursive;
+*/
+
+body {
+    font-family:'Cinzel Decorative', cursive;
+    background-image: url("../images/th.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+  }
+
+  .jumbotron{
+      background: rgba(0, 0, 0, .8);
+      color: rgb(235, 231, 227);
+  }
+
+  h1{
+      text-align: center;
+      height: 50px;
+      margin: 10px 10px 10px 10px;
+      font-weight: bolder;
+      font-size: 20px;
+  }
+
+  p{
+    text-align: center;
+    font-family: initial; 
+    padding-top: 15px;
+  }
+.radio-inline{
+  font-size: 20px;
+  color: wheat;
+  padding: 8px;
+  font-family:'Cinzel Decorative', cursive;
+  margin: 10px 0px 10px 0px;
+}
+
+#timeRemaining, h2{
+    font-size: 35 px;
+    color:  rgb(240, 240, 240);
+    margin-bottom: 30px;
+}
+
+#formQuiz, #quizResults{
+    font-size: 25px;
+    font-weight: bold;
+    color:  rgb(255, 255, 255);
+    background: rgba(0, 0, 0, .8);
+    margin: 0px 10px 0px 10px;
+}
+
+#submitQuiz, #startGame{
+    font-size: 25px;
+    font-family: 'Diplomata', cursive;
+    padding: 30px 100px 30px 100px;
+    margin: 10px 0px 10px 0px;
+    background:  rgba(0, 0, 0, .8);
+}
+
+.mark, mark {
+    padding: .2em;
+    background: rgba(0, 0, 0, .8);
+    color: red;
+    font-size: 25px;
+
+}
+footer {
+   color:white;
+ font-size: 12px;
+
+}
