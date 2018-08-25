@@ -1,4 +1,4 @@
-let userPick = []; //Array to hold the user choices, will populate with null in a for loop later
+let userPick = []; //Array to hold the user choices
 let correctAnswers = 0;
 let wrongAnswers = 0;
 let missedAnswers = 0;
